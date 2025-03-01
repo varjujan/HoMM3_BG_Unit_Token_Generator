@@ -1,6 +1,6 @@
 # Generate HoMM 3 Board Game Unit Tokens Script
 
-This script is designed to automate the process of enabling and disabling layers in an Adobe Photoshop document based on data from a CSV file. It is specifically tailored for generating units for Heroes of Might and Magic (HoMM).
+This script is designed to automate the process of enabling and disabling layers in an Adobe Photoshop document based on data from a CSV file. It is specifically tailored for generating units for Heroes of Might and Magic 3 The Board Game. Some images must be exported manually if needed, like the Neutral Unit backs.
 
 ## Used Material
 
