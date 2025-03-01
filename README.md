@@ -2,6 +2,10 @@
 
 This project is designed for generating small Unit summaries for Heroes of Might and Magic 3 The Board Game by automating the process of enabling and disabling layers in the Adobe Photoshop document homm.psd based on data from a CSV file and exporting the result. Some images must be exported manually if needed, like the Neutral Unit backs.
 
+## Example
+
+![example_1.png](example_1.png)![example_2.png](example_2.png)
+
 ## Used Material
 
 - Unit raw data: https://docs.google.com/spreadsheets/d/1Wm5LqhT1qEvUsgfJ4wycAGEEmSxRtw7w65bwA9MG5cY/edit?usp=sharing (Thanks to Discord user Re4XN)
