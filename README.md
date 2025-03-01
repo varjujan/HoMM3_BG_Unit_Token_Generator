@@ -2,6 +2,13 @@
 
 This script is designed to automate the process of enabling and disabling layers in an Adobe Photoshop document based on data from a CSV file. It is specifically tailored for generating units for Heroes of Might and Magic (HoMM).
 
+## Used Material
+
+- Unit raw data: https://docs.google.com/spreadsheets/d/1Wm5LqhT1qEvUsgfJ4wycAGEEmSxRtw7w65bwA9MG5cY/edit?usp=sharing (Thanks to Discord user Re4XN)
+- Image Assets: https://github.com/Mirzipan/Homm3_BG_Database
+
+I don't own any of these.
+
 ## How It Works
 
 1. **CSV Parsing**: The script reads a CSV file containing data about various units. Each row in the CSV represents a unit with specific attributes.
