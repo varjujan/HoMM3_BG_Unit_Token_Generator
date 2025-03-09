@@ -30,6 +30,7 @@ The CSV file should have the following columns:
 - `Health`: Health value.
 - `Initiative`: Initiative value.
 - `Type`: Type of the unit.
+- `Tier`: Tier of the unit (bronze, silver, gold, azure).
 - `Pack`: Indicates if the unit is a pack (Few otherwise).
 - `Axe`, `Sword`, `Arrow`, `Hourglass`, `Vortex`: These columns should contain `TRUE` or `FALSE` values indicating whether the unit has the corresponding ability.
 

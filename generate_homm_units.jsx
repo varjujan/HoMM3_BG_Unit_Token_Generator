@@ -77,6 +77,12 @@ function enableLayersByName(data) {
         if (vortexLayer) {
           vortexLayer.visible = data.Vortex === 'TRUE';
           //$.writeln((data.Vortex === 'TRUE' ? "Enabled" : "Disabled") + " Vortex layer inside Attack.");
+          
+          var swordsLayer = layerSet.artLayers.getByName('Swords');
+          if (swordsLayer) {
+            swordsLayer.visible = !vortexLayer.visible;
+            //$.writeln((!vortexLayer.visible ? "Enabled" : "Disabled") + " Swords layer.");
+          }
         }
         break;
       case 'Defense':
@@ -102,7 +108,8 @@ function enableLayersByName(data) {
       case 'Type':
         //$.writeln("Enabling Type layer: " + data.Type);
         enableLayerInGroup(layerSet, 'Type', false);
-        enableLayerInGroup(layerSet.layerSets.getByName('TypeValues'), data.Type, false);
+        var typeTierLayerName = data.Type + "_" + data.Tier;
+        enableLayerInGroup(layerSet.layerSets.getByName('TypeValues'), typeTierLayerName, false);
         break;
       case 'Pack':
         if (data.Pack === 'TRUE') {
@@ -118,7 +125,6 @@ function enableLayersByName(data) {
       case 'Sword':
       case 'Arrow':
       case 'Hourglass':
-      case 'Vortex':
         if (data[layerSet.name] === 'TRUE') {
           //$.writeln("Enabling " + layerSet.name + " layer.");
           enableAllLayersInGroup(layerSet);
