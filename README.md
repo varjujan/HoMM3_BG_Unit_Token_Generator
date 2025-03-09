@@ -4,6 +4,7 @@ This project is designed for generating small Unit summaries for Heroes of Might
 
 ## Example
 
+![example_1.png](example_1.png)![example_2.png](example_2.png)
 
 ## Used Material
 
